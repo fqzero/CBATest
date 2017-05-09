@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21846" started-at="2017-05-09T15:26:00Z" finished-at="2017-05-09T15:26:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21846" started-at="2017-05-09T15:26:00Z" finished-at="2017-05-09T15:26:21Z">
+      <class name="com.geelaro.web.AutoCba.AppTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="setUp" is-config="true" duration-ms="3766" started-at="2017-05-09T23:26:00Z" finished-at="2017-05-09T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="mailLogin()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="mailLogin" duration-ms="7768" started-at="2017-05-09T23:26:03Z" finished-at="2017-05-09T23:26:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailLogin -->
+        <test-method status="PASS" signature="afterBaidu()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="afterBaidu" is-config="true" duration-ms="993" started-at="2017-05-09T23:26:11Z" finished-at="2017-05-09T23:26:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterBaidu -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="setUp" is-config="true" duration-ms="2790" started-at="2017-05-09T23:26:12Z" finished-at="2017-05-09T23:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openBaidu()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="openBaidu" duration-ms="5709" started-at="2017-05-09T23:26:15Z" finished-at="2017-05-09T23:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBaidu -->
+        <test-method status="PASS" signature="afterBaidu()[pri:0, instance:com.geelaro.web.AutoCba.AppTest@26be92ad]" name="afterBaidu" is-config="true" duration-ms="794" started-at="2017-05-09T23:26:21Z" finished-at="2017-05-09T23:26:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterBaidu -->
+      </class> <!-- com.geelaro.web.AutoCba.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
