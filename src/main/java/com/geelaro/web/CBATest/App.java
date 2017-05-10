@@ -1,4 +1,4 @@
-package com.geelaro.web.AutoCba;
+package com.geelaro.web.CBATest;
 
 /**
  * Hello world!
