@@ -25,7 +25,7 @@ public class CbaTest {
     @BeforeSuite
     public void Setup() {
 
-	System.setProperty("webdriver.chrome.driver", "D:\\Users\\webdriver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "D:\\LEE\\webdriver\\chromedriver.exe");
 	// 实例
 	driver = new ChromeDriver();
 	// 等待时间
@@ -112,6 +112,7 @@ public class CbaTest {
 	
 	Thread.sleep(2000);
     }
+    
     @AfterSuite
     public void tearDown() {
 	System.out.println("测试结束");
