@@ -1,3 +1,3 @@
 # CBATest
 
-www.yy.com/cba专题页自动化测试项目。
+www.yy.com/cba 专题页自动化测试项目。
