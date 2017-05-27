@@ -22,5 +22,18 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Users/LEE/apache-log4j-2.6.2-bin/log4j-1.2-api-2.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Users/LEE/apache-log4j-2.6.2-bin/log4j-api-2.6.2.jar"/>
+	<classpathentry kind="lib" path="D:/Users/LEE/apache-log4j-2.6.2-bin/log4j-core-2.6.2.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

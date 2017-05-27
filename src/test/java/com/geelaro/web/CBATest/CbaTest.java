@@ -1,16 +1,12 @@
 package com.geelaro.web.CBATest;
 
-import java.awt.image.ImagingOpException;
-import java.io.IOException;
-
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByXPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.annotations.AfterGroups;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
@@ -21,17 +17,21 @@ public class CbaTest {
 
     private WebDriver driver;
     private WebDriverWait wait;
+        
+    private static Logger logger = LogManager.getLogger(CbaTest.class);
+
 
     @BeforeSuite
     public void Setup() {
 
-	System.setProperty("webdriver.chrome.driver", "D:\\LEE\\webdriver\\chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "D:\\Users\\webdriver\\chromedriver.exe");
 	// 实例
 	driver = new ChromeDriver();
 	// 等待时间
 	wait = new WebDriverWait(driver, 10, 1);
 	//
 	System.out.println("开始测试");
+	logger.info("Setup...");
     }
 
     /** -使用id查找- **/
@@ -109,13 +109,14 @@ public class CbaTest {
 	driver.findElement(By.xpath("//form[@id='form']/span/input")).sendKeys("ssee");
 	
 	driver.findElement(By.xpath("//input[@type='submit']")).click();
-	
+	logger.info("openBaidu");
 	Thread.sleep(2000);
     }
     
     @AfterSuite
     public void tearDown() {
 	System.out.println("测试结束");
+	logger.info("tearDown...");
 	driver.quit();
     }
 }
