@@ -6,9 +6,10 @@ import org.openqa.selenium.support.FindBy;
 
 public class CbaHomePage {
     // 登录
-    @FindBy(xpath = "//*[@id='wHeadInfo']/div/a[1]")
+    @FindBy(xpath = "//*[@id=\"wHeadInfo\"]/div/a[1]")
     public WebElement login;
-    public static By byLogin = By.xpath("//*[@id='wHeadInfo']/div/a[1]");
+    
+    public static By byLogin = By.xpath("//*[@id=\"wHeadInfo\"]/div/a[1]");
     // 注册
     @FindBy(xpath = "//*[@id='wHeadInfo']/div/a[2]")
     public WebElement signIn;
